@@ -13,7 +13,7 @@
       <script src="js/html5shiv.js"></script>
     <![endif]-->
     <!-- vender-prefix -->
-    <!-- <script type="text/javascript" src="js/prefixfree.min.js"></script> -->
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
     <!-- 스와이퍼 -->
     <link rel="stylesheet" href="js/swiper/swiper.min.css">
     <script src="js/swiper/swiper.min.js"></script>
@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    <div class="gotop"></div>
     <div class="wrap">
         <!--상단-->
         <header class="header">
@@ -129,6 +130,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class=" swiper-pagination log-pg"></div>
                     </div>
                     <div class="log-b-r clearfix">
                         <p class="log-b-r-txt">지금 로그인하여 <b>맞춤 제품을 <br>추천</b> 받아보세요!</p>
@@ -210,36 +212,40 @@
                 <span class="best-tit">베스트 제품</span>
                 <div class="best-list-box">
                     <ul class="best-list">
-                        <li><a href="#">
+                        <li><a href="javascript:return false;">
                                 <p><strong>10</strong>대</p>
                                 <i class="best-arrow1"></i>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="javascript:return false;">
                                 <p><strong>20</strong>대</p>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="javascript:return false;">
                                 <p><strong>30</strong>대</p>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="javascript:return false;">
                                 <p><strong>40</strong>대</p>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="javascript:return false;">
                                 <p><strong>50</strong>대</p>
                                 <i class="best-arrow2"></i>
                             </a></li>
                     </ul>
+                    <span class="orange-box">
+                        <img class="orang-box-arrow" src="images/right_arrow.png" alt="화살표">
+                    </span>
                 </div>
             </div>
             <div class="best-right">
                 <div class="best-right-top clearfix">
                     <div class="best-r-top-1">
                         <a href="#" class="best-a-1">
-                            <h2 class="best-p-num-1"><em>1</em>위</h2>
+                            <p class="best-p-num-1"><em>1</em>위</p>
                             <img class="best-p-img-1" src="images/product_13.jpg">
                             <span>
-                                <p class="best-p-tit-1"></p>
-                                <p class="best-p-txt-1">1,800원 <em>(130ml)</em> </p>
+                                <p class="best-p-tit-1">식물성유산균쌀<br>요거트</p>
+                                <p class="best-p-txt-1">2,000원 <em>(150ml)</em> </p>
                             </span>
+                            <i class="product-icon"></i>
                         </a>
                     </div>
                     <div class="best-r-top-2">
@@ -250,6 +256,7 @@
                                 <p class="best-p-tit">러브미 케일&셀러리</p>
                                 <p class="best-p-txt">1,800원 <em>(130ml)</em> </p>
                             </span>
+                            <i class="product-icon"></i>
                         </a>
                     </div>
                 </div>
@@ -260,8 +267,9 @@
                             <img class="best-p-img" src="images/product_14.jpg">
                             <span>
                                 <p class="best-p-tit">식물성유산균 위&캡슐</p>
-                                <p class="best-p-txt">1,800원 <em>(130ml)</em> </p>
+                                <p class="best-p-txt">2,100원 <em>(130ml)</em> </p>
                             </span>
+                            <i class="product-icon"></i>
                         </a>
                     </div>
                     <div class="best-r-bottom-4">
@@ -270,8 +278,9 @@
                             <img class="best-p-img" src="images/product_10.jpg">
                             <span>
                                 <p class="best-p-tit">노니&깔라만시</p>
-                                <p class="best-p-txt">1,800원 <em>(130ml)</em> </p>
+                                <p class="best-p-txt">2,100원 <em>(130ml)</em> </p>
                             </span>
+                            <i class="product-icon"></i>
                         </a>
                     </div>
                     <div class="best-r-bottom-5">
@@ -282,6 +291,7 @@
                                 <p class="best-p-tit">식물성유산균 오메가&<br>치아씨드</p>
                                 <p class="best-p-txt">2,100원 <em>(130ml)</em> </p>
                             </span>
+                            <i class="product-icon"></i>
                         </a>
                     </div>
                 </div>
