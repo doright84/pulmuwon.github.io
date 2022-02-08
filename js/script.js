@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    // 안내창 닫기
+    $('.modal').click(function () {
+        $('.modal').fadeOut();
+    });
     // gotop---------
     $(".gotop").hide();
     $(window).scroll(function () {
