@@ -12,6 +12,12 @@ $(document).ready(function () {
             $('.gotop').fadeOut();
         }
     });
+    $('.gotop').click(function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        });
+    });
     // swiper 슬라이드 관련
     new Swiper('.slide-main', {
 
@@ -26,7 +32,7 @@ $(document).ready(function () {
             crossFade: true,
             speed: 5000,
         },
-       
+
         //로그인 슬라이드
     });
     new Swiper('.log-sw', {
